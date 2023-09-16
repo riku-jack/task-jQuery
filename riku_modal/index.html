@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQueryの学習</title>
+
+    <!-- remodal css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal-default-theme.min.css">
+
+    <!-- original css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <a href="#modal01" class="btn">風景１</a>
+        <div class="remodal" data-remodal-id="modal01">
+            <p><img src="images/img1.jpg" alt=""></p>
+            <p>テキストテキスト</p>
+            <a href="#" class="modalClose">戻る</a>
+        </div>
+    </div>
+
+    <div>
+        <a href="#modal02" class="btn">風景2</a>
+        <div class="remodal" data-remodal-id="modal02">
+            <p><img src="images/img2.jpg" alt=""></p>
+            <p>テキストテキスト</p>
+            <a href="#" class="modalClose">戻る</a>
+        </div>
+    </div>
+
+    <div>
+        <a href="#modal03" class="btn">風景3</a>
+        <div class="remodal" data-remodal-id="modal03">
+            <p><img src="images/img3.jpg" alt=""></p>
+            <p>テキストテキスト</p>
+            <a href="#" class="modalClose">戻る</a>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- remodal js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal.min.js"></script>
+
+    <!-- original js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
